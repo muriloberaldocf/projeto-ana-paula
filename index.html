@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Guia completo sobre a Matriz Energética e Matriz Elétrica do Brasil: comparativo, vantagens e desvantagens de energias renováveis e não renováveis. Dados oficiais do BEN 2025 (EPE/MME) e IEA.">
+  <title>Energia Brasil — Matriz Energética & Elétrica | Renováveis vs Não Renováveis</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+</head>
+<body>
+
+  <!-- Background Effects -->
+  <div class="bg-grid"></div>
+  <div class="bg-gradient-orbs"></div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="#" class="navbar-logo">
+        <div class="logo-icon">⚡</div>
+        <div class="logo-text">Energia<span>Brasil</span></div>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#conceitos">Conceitos</a></li>
+        <li><a href="#matriz-eletrica">Matriz Elétrica</a></li>
+        <li><a href="#renovaveis">Renováveis</a></li>
+        <li><a href="#nao-renovaveis">Não Renováveis</a></li>
+        <li><a href="#comparativo">Comparativo</a></li>
+        <li><a href="#mundo-vs-brasil">Brasil vs Mundo</a></li>
+        <li><a href="#fontes">Fontes</a></li>
+      </ul>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">☰</button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="img/hero_banner.jpg" alt="Panorama energético: fontes renováveis e não renováveis">
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Dados atualizados — BEN 2025 (ano-base 2024)
+      </div>
+      <h1>Entenda a <span class="gradient-text">Matriz Energética</span> e a <span class="gradient-text">Matriz Elétrica</span> do Brasil</h1>
+      <p>Um guia completo e comparativo sobre as fontes de energia que movem o país e o mundo. Dados oficiais da EPE, Ministério de Minas e Energia e IEA — sempre com os devidos créditos.</p>
+      <div class="hero-cta">
+        <a href="#conceitos" class="btn btn-primary">Explorar Conceitos ↓</a>
+        <a href="#comparativo" class="btn btn-secondary">Ver Comparativo</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="stat-value">50%</div>
+          <div class="stat-label">Renováveis na Matriz Energética</div>
+        </div>
+        <div class="hero-stat">
+          <div class="stat-value">88,2%</div>
+          <div class="stat-label">Renováveis na Matriz Elétrica</div>
+        </div>
+        <div class="hero-stat">
+          <div class="stat-value">40%</div>
+          <div class="stat-label">Renováveis + Nuclear no Mundo</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONCEITOS ===== -->
+  <section class="section" id="conceitos">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Conceitos Fundamentais</div>
+        <h2>Matriz Energética vs Matriz Elétrica</h2>
+        <p class="section-desc">Embora frequentemente confundidas, esses dois conceitos descrevem universos diferentes. Entender essa diferença é essencial para compreender o cenário energético brasileiro.</p>
+      </div>
+
+      <div class="concept-grid">
+        <!-- Matriz Energética -->
+        <div class="concept-card energetica reveal">
+          <div class="card-icon">🔥</div>
+          <h3>Matriz Energética</h3>
+          <p class="card-desc">
+            Representa <strong>todas as fontes de energia</strong> utilizadas por um país para atender às suas necessidades — incluindo <strong>transportes</strong> (gasolina, diesel, etanol), <strong>processos industriais</strong>, <strong>aquecimento</strong> e <strong>geração de eletricidade</strong>. É a visão mais abrangente do consumo de energia.
+          </p>
+          <div class="card-stats">
+            <div class="stat-row">
+              <span class="stat-label-text">Renovabilidade (Brasil 2024)</span>
+              <span class="stat-val amber">50%</span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-label-text">Inclui transportes?</span>
+              <span class="stat-val green">Sim</span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-label-text">Abrangência</span>
+              <span class="stat-val orange">Total</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Matriz Elétrica -->
+        <div class="concept-card eletrica reveal">
+          <div class="card-icon">⚡</div>
+          <h3>Matriz Elétrica</h3>
+          <p class="card-desc">
+            É um <strong>subconjunto</strong> da matriz energética. Refere-se exclusivamente aos recursos utilizados para a <strong>geração de energia elétrica</strong> — aquela que chega às tomadas, ilumina cidades e movimenta indústrias. No Brasil, é predominantemente renovável graças às hidrelétricas.
+          </p>
+          <div class="card-stats">
+            <div class="stat-row">
+              <span class="stat-label-text">Renovabilidade (Brasil 2024)</span>
+              <span class="stat-val blue">88,2%</span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-label-text">Inclui transportes?</span>
+              <span class="stat-val" style="color: var(--red-400);">Não</span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-label-text">Abrangência</span>
+              <span class="stat-val blue">Eletricidade</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="callout reveal">
+        <p>💡 <strong>Por que a diferença?</strong> A matriz energética inclui combustíveis fósseis usados em transportes (gasolina, diesel), o que reduz sua renovabilidade para ~50%. Já a matriz elétrica é dominada por hidrelétricas, eólica e solar, alcançando 88,2% de fontes renováveis.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MATRIZ ELÉTRICA - DADOS ===== -->
+  <section class="section" id="matriz-eletrica">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Dados Oficiais</div>
+        <h2>Composição da Matriz Elétrica Brasileira</h2>
+        <p class="section-desc">Dados do Balanço Energético Nacional 2025 (BEN 2025), publicado pela EPE — Empresa de Pesquisa Energética, vinculada ao Ministério de Minas e Energia. Ano-base: 2024.</p>
+      </div>
+
+      <div class="data-bars reveal">
+        <div class="data-bar-item" data-percent="56.1">
+          <div class="data-bar-header">
+            <span class="bar-label">💧 Hidráulica</span>
+            <span class="bar-value" style="color: #60a5fa;">56,1%</span>
+          </div>
+          <div class="data-bar-track">
+            <div class="data-bar-fill bar-hydro" style="width: 0%;"></div>
+          </div>
+        </div>
+
+        <div class="data-bar-item" data-percent="14.2">
+          <div class="data-bar-header">
+            <span class="bar-label">💨 Eólica</span>
+            <span class="bar-value" style="color: #22d3ee;">14,2%</span>
+          </div>
+          <div class="data-bar-track">
+            <div class="data-bar-fill bar-wind" style="width: 0%;"></div>
+          </div>
+        </div>
+
+        <div class="data-bar-item" data-percent="9.5">
+          <div class="data-bar-header">
+            <span class="bar-label">☀️ Solar Fotovoltaica</span>
+            <span class="bar-value" style="color: #fbbf24;">9,5%</span>
+          </div>
+          <div class="data-bar-track">
+            <div class="data-bar-fill bar-solar" style="width: 0%;"></div>
+          </div>
+        </div>
+
+        <div class="data-bar-item" data-percent="8.4">
+          <div class="data-bar-header">
+            <span class="bar-label">🌿 Biomassa</span>
+            <span class="bar-value" style="color: #4ade80;">8,4%</span>
+          </div>
+          <div class="data-bar-track">
+            <div class="data-bar-fill bar-biomass" style="width: 0%;"></div>
+          </div>
+        </div>
+
+        <div class="data-bar-item" data-percent="8.0">
+          <div class="data-bar-header">
+            <span class="bar-label">🔥 Gás Natural</span>
+            <span class="bar-value" style="color: #fb923c;">8,0%</span>
+          </div>
+          <div class="data-bar-track">
+            <div class="data-bar-fill bar-gas" style="width: 0%;"></div>
+          </div>
+        </div>
+
+        <div class="data-bar-item" data-percent="1.1">
+          <div class="data-bar-header">
+            <span class="bar-label">☢️ Nuclear</span>
+            <span class="bar-value" style="color: #a78bfa;">1,1%</span>
+          </div>
+          <div class="data-bar-track">
+            <div class="data-bar-fill bar-nuclear" style="width: 0%;"></div>
+          </div>
+        </div>
+
+        <div class="data-bar-item" data-percent="2.7">
+          <div class="data-bar-header">
+            <span class="bar-label">📊 Outros (carvão, petróleo, etc.)</span>
+            <span class="bar-value" style="color: #94a3b8;">2,7%</span>
+          </div>
+          <div class="data-bar-track">
+            <div class="data-bar-fill bar-others" style="width: 0%;"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="callout reveal">
+        <p>📈 A <strong>geração solar fotovoltaica cresceu 39,6%</strong> em 2024, atingindo 70,7 TWh. A capacidade instalada de energia solar alcançou <strong>48.468 MW</strong>, um aumento de 28,1% em relação a 2023. Solar e eólica juntas representaram <strong>23,7% da geração total</strong>.</p>
+        <p style="margin-top: 8px; font-size: 0.78rem; color: var(--text-muted);">Fonte: EPE — Balanço Energético Nacional 2025, Relatório Síntese (publicado em 29/05/2025)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ENERGIAS RENOVÁVEIS ===== -->
+  <section class="section" id="renovaveis">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Fontes Limpas</div>
+        <h2>Energias Renováveis</h2>
+        <p class="section-desc">Provêm de fontes naturais que se regeneram continuamente e são consideradas inesgotáveis na escala de tempo humana. São fundamentais para a sustentabilidade do planeta.</p>
+      </div>
+
+      <div class="energy-grid">
+        <!-- SOLAR -->
+        <div class="energy-card reveal">
+          <div class="card-img-wrapper">
+            <img src="img/solar_energy.jpg" alt="Painéis solares em fazenda solar">
+          </div>
+          <div class="card-body">
+            <span class="card-tag tag-renewable">✦ Renovável</span>
+            <h3>☀️ Energia Solar</h3>
+            <p class="card-excerpt">Captura a radiação solar através de painéis fotovoltaicos ou sistemas de concentração. O Brasil possui excelente irradiação solar, especialmente no Nordeste e Centro-Oeste, sendo um dos maiores potenciais do mundo.</p>
+            <div class="pros-cons">
+              <div>
+                <h4 class="pros-title">✅ Vantagens</h4>
+                <ul class="pros-list">
+                  <li>Fonte inesgotável e limpa (sem emissões na geração)</li>
+                  <li>Custos de instalação em queda significativa</li>
+                  <li>Exige pouca manutenção após instalação</li>
+                  <li>Ideal para geração distribuída e locais remotos</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="cons-title">❌ Desvantagens</h4>
+                <ul class="cons-list">
+                  <li>Intermitente: sem geração à noite, reduzida em dias nublados</li>
+                  <li>Custo inicial de equipamentos ainda significativo</li>
+                  <li>Exige grandes áreas para usinas de grande escala</li>
+                  <li>Desafio no descarte de painéis ao fim da vida útil</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- EÓLICA -->
+        <div class="energy-card reveal">
+          <div class="card-img-wrapper">
+            <img src="img/wind_energy.jpg" alt="Turbinas eólicas em colinas verdes">
+          </div>
+          <div class="card-body">
+            <span class="card-tag tag-renewable">✦ Renovável</span>
+            <h3>💨 Energia Eólica</h3>
+            <p class="card-excerpt">Utiliza a força dos ventos para girar aerogeradores e produzir eletricidade. O Brasil é referência mundial em energia eólica, com destaque para os estados do Nordeste (BA, RN, CE, PI).</p>
+            <div class="pros-cons">
+              <div>
+                <h4 class="pros-title">✅ Vantagens</h4>
+                <ul class="pros-list">
+                  <li>Limpa e inesgotável, sem emissão de gases poluentes</li>
+                  <li>Baixo custo operacional após instalação</li>
+                  <li>Gera empregos e investimentos em regiões estratégicas</li>
+                  <li>Ajuda a diversificar a matriz energética</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="cons-title">❌ Desvantagens</h4>
+                <ul class="cons-list">
+                  <li>Intermitente: depende da constância e velocidade dos ventos</li>
+                  <li>Impacto visual na paisagem</li>
+                  <li>Poluição sonora próxima aos parques eólicos</li>
+                  <li>Pode afetar rotas migratórias de aves</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- HIDRELÉTRICA -->
+        <div class="energy-card reveal">
+          <div class="card-img-wrapper">
+            <img src="img/hydro_energy.jpg" alt="Usina hidrelétrica com barragem">
+          </div>
+          <div class="card-body">
+            <span class="card-tag tag-renewable">✦ Renovável</span>
+            <h3>💧 Energia Hidrelétrica</h3>
+            <p class="card-excerpt">Aproveita o potencial hidráulico dos rios para movimentar turbinas e gerar eletricidade. É a principal fonte da matriz elétrica brasileira, responsável por 56,1% da geração em 2024.</p>
+            <div class="pros-cons">
+              <div>
+                <h4 class="pros-title">✅ Vantagens</h4>
+                <ul class="pros-list">
+                  <li>Custo operacional muito baixo e alta eficiência</li>
+                  <li>Sem emissão de gases poluentes durante a operação</li>
+                  <li>Pode auxiliar no controle de enchentes</li>
+                  <li>Fonte confiável com reservatórios de regulação</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="cons-title">❌ Desvantagens</h4>
+                <ul class="cons-list">
+                  <li>Grande impacto ambiental: alagamento de áreas extensas</li>
+                  <li>Destruição de habitats e desvio de cursos d'água</li>
+                  <li>Alto custo de construção e longo tempo de implantação</li>
+                  <li>Vulnerável a variações climáticas e secas prolongadas</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BIOMASSA -->
+        <div class="energy-card reveal">
+          <div class="card-img-wrapper">
+            <img src="img/biomass_energy.jpg" alt="Usina de biomassa com canaviais">
+          </div>
+          <div class="card-body">
+            <span class="card-tag tag-renewable">✦ Renovável</span>
+            <h3>🌿 Biomassa</h3>
+            <p class="card-excerpt">Gera energia a partir da queima ou decomposição de matéria orgânica (bagaço de cana, resíduos agrícolas, lenha, licor preto). É a terceira fonte renovável mais relevante na matriz elétrica brasileira.</p>
+            <div class="pros-cons">
+              <div>
+                <h4 class="pros-title">✅ Vantagens</h4>
+                <ul class="pros-list">
+                  <li>Considerada neutra em emissões de carbono (ciclo fechado)</li>
+                  <li>Aproveita resíduos agrícolas e industriais</li>
+                  <li>Alta confiabilidade — não depende do clima</li>
+                  <li>Geração constante e despachável</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="cons-title">❌ Desvantagens</h4>
+                <ul class="cons-list">
+                  <li>Pode incentivar desmatamento se mal gerida</li>
+                  <li>Requer grandes áreas de cultivo para matéria-prima</li>
+                  <li>Uso de fertilizantes pode impactar o ambiente</li>
+                  <li>Eficiência energética menor que outras fontes</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ENERGIAS NÃO RENOVÁVEIS ===== -->
+  <section class="section" id="nao-renovaveis">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Fontes Finitas</div>
+        <h2>Energias Não Renováveis</h2>
+        <p class="section-desc">Provêm de recursos naturais finitos, que levam milhões de anos para se formar. São amplamente utilizadas devido à sua alta densidade energética e infraestrutura consolidada, mas trazem desafios ambientais significativos.</p>
+      </div>
+
+      <div class="energy-grid">
+        <!-- PETRÓLEO -->
+        <div class="energy-card reveal">
+          <div class="card-img-placeholder petro-bg">
+            <span>🛢️</span>
+          </div>
+          <div class="card-body">
+            <span class="card-tag tag-nonrenewable">✦ Não Renovável</span>
+            <h3>🛢️ Petróleo e Derivados</h3>
+            <p class="card-excerpt">Principal combustível para transportes (gasolina, diesel, querosene de aviação). Responsável por grande parte da matriz energética brasileira, especialmente no setor de mobilidade.</p>
+            <div class="pros-cons">
+              <div>
+                <h4 class="pros-title">✅ Vantagens</h4>
+                <ul class="pros-list">
+                  <li>Altíssima densidade energética</li>
+                  <li>Fácil transporte e armazenamento</li>
+                  <li>Infraestrutura global consolidada</li>
+                  <li>Versatilidade: combustíveis, plásticos, lubrificantes</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="cons-title">❌ Desvantagens</h4>
+                <ul class="cons-list">
+                  <li>Fonte finita e esgotável</li>
+                  <li>Emissão massiva de gases de efeito estufa</li>
+                  <li>Risco de vazamentos e desastres ambientais</li>
+                  <li>Preços voláteis e dependência geopolítica</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- GÁS NATURAL -->
+        <div class="energy-card reveal">
+          <div class="card-img-placeholder gas-bg">
+            <span>🔥</span>
+          </div>
+          <div class="card-body">
+            <span class="card-tag tag-nonrenewable">✦ Não Renovável</span>
+            <h3>🔥 Gás Natural</h3>
+            <p class="card-excerpt">Considerado o combustível fóssil mais "limpo", emite menos CO₂ que o carvão e o petróleo. No Brasil, atua como fonte complementar/flexível no sistema elétrico — acionado em períodos de baixa pluviosidade.</p>
+            <div class="pros-cons">
+              <div>
+                <h4 class="pros-title">✅ Vantagens</h4>
+                <ul class="pros-list">
+                  <li>Menor emissão de poluentes entre os fósseis</li>
+                  <li>Fornecimento constante e despachável</li>
+                  <li>Versatilidade: geração elétrica, indústria, cocção</li>
+                  <li>Combustão mais eficiente que carvão</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="cons-title">❌ Desvantagens</h4>
+                <ul class="cons-list">
+                  <li>Ainda é fonte fóssil finita</li>
+                  <li>Vazamentos de metano (potente gás de efeito estufa)</li>
+                  <li>Depende de infraestrutura de gasodutos</li>
+                  <li>Extração pode causar impactos ambientais</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARVÃO -->
+        <div class="energy-card reveal">
+          <div class="card-img-wrapper">
+            <img src="img/fossil_energy.jpg" alt="Infraestrutura de combustíveis fósseis">
+          </div>
+          <div class="card-body">
+            <span class="card-tag tag-nonrenewable">✦ Não Renovável</span>
+            <h3>⛏️ Carvão Mineral</h3>
+            <p class="card-excerpt">Uma das fontes de energia mais antigas da humanidade. Abundante em diversas regiões do planeta, porém é considerada uma das mais poluentes. No Brasil, tem participação reduzida na matriz elétrica.</p>
+            <div class="pros-cons">
+              <div>
+                <h4 class="pros-title">✅ Vantagens</h4>
+                <ul class="pros-list">
+                  <li>Abundante e com reservas globais extensas</li>
+                  <li>Custo relativamente baixo de extração</li>
+                  <li>Fornecimento constante, independente do clima</li>
+                  <li>Tecnologia madura e consolidada</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="cons-title">❌ Desvantagens</h4>
+                <ul class="cons-list">
+                  <li>Uma das fontes mais poluentes existentes</li>
+                  <li>Emite SO₂, NOₓ e material particulado</li>
+                  <li>Mineração causa degradação ambiental severa</li>
+                  <li>Recurso finito e em declínio de uso global</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- NUCLEAR -->
+        <div class="energy-card reveal">
+          <div class="card-img-placeholder nuclear-bg">
+            <span>☢️</span>
+          </div>
+          <div class="card-body">
+            <span class="card-tag tag-nonrenewable">✦ Não Renovável</span>
+            <h3>☢️ Energia Nuclear</h3>
+            <p class="card-excerpt">Gera energia através da fissão de átomos de urânio. O Brasil possui duas usinas nucleares em operação (Angra 1 e 2) e Angra 3 está em construção. Representa cerca de 1,1% da matriz elétrica.</p>
+            <div class="pros-cons">
+              <div>
+                <h4 class="pros-title">✅ Vantagens</h4>
+                <ul class="pros-list">
+                  <li>Altíssima densidade energética</li>
+                  <li>Não emite gases de efeito estufa na operação</li>
+                  <li>Produção constante, independente do clima</li>
+                  <li>Ocupa pouco espaço comparado à geração</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="cons-title">❌ Desvantagens</h4>
+                <ul class="cons-list">
+                  <li>Risco de acidentes nucleares graves</li>
+                  <li>Geração de lixo radioativo de difícil armazenamento</li>
+                  <li>Custo elevado de construção e descomissionamento</li>
+                  <li>Dependência de urânio (recurso finito)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COMPARATIVO GERAL ===== -->
+  <section class="section" id="comparativo">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Análise Detalhada</div>
+        <h2>Comparativo Completo das Fontes de Energia</h2>
+        <p class="section-desc">Tabela comparativa reunindo as principais características, vantagens e desvantagens de cada fonte. Dados baseados em relatórios oficiais e literatura científica.</p>
+      </div>
+
+      <div class="comparison-wrapper reveal">
+        <table class="comparison-table" id="comparisonTable">
+          <thead>
+            <tr>
+              <th>Fonte</th>
+              <th>Tipo</th>
+              <th>% Matriz Elétrica (2024)</th>
+              <th>Principal Vantagem</th>
+              <th>Principal Desvantagem</th>
+              <th>Emissão de CO₂</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <span class="source-name">
+                  <span class="source-icon" style="background: rgba(96,165,250,0.15); border: 1px solid rgba(96,165,250,0.25);">💧</span>
+                  Hidráulica
+                </span>
+              </td>
+              <td><span class="badge-r badge-renovavel">Renovável</span></td>
+              <td style="font-weight:700; color: var(--blue-400);">56,1%</td>
+              <td>Custo operacional muito baixo, alta eficiência</td>
+              <td>Grande impacto ambiental (alagamentos)</td>
+              <td style="color: var(--green-400);">Muito Baixa</td>
+            </tr>
+            <tr>
+              <td>
+                <span class="source-name">
+                  <span class="source-icon" style="background: rgba(34,211,238,0.15); border: 1px solid rgba(34,211,238,0.25);">💨</span>
+                  Eólica
+                </span>
+              </td>
+              <td><span class="badge-r badge-renovavel">Renovável</span></td>
+              <td style="font-weight:700; color: var(--cyan-400);">14,2%</td>
+              <td>Limpa, inesgotável, gera empregos</td>
+              <td>Intermitente, impacto visual e sonoro</td>
+              <td style="color: var(--green-400);">Nula</td>
+            </tr>
+            <tr>
+              <td>
+                <span class="source-name">
+                  <span class="source-icon" style="background: rgba(251,191,36,0.15); border: 1px solid rgba(251,191,36,0.25);">☀️</span>
+                  Solar
+                </span>
+              </td>
+              <td><span class="badge-r badge-renovavel">Renovável</span></td>
+              <td style="font-weight:700; color: var(--yellow-400);">9,5%</td>
+              <td>Inesgotável, custos em queda, baixa manutenção</td>
+              <td>Intermitente, custo inicial elevado</td>
+              <td style="color: var(--green-400);">Nula</td>
+            </tr>
+            <tr>
+              <td>
+                <span class="source-name">
+                  <span class="source-icon" style="background: rgba(34,197,94,0.15); border: 1px solid rgba(34,197,94,0.25);">🌿</span>
+                  Biomassa
+                </span>
+              </td>
+              <td><span class="badge-r badge-renovavel">Renovável</span></td>
+              <td style="font-weight:700; color: var(--green-400);">8,4%</td>
+              <td>Neutra em carbono (ciclo), aproveita resíduos</td>
+              <td>Pode incentivar desmatamento</td>
+              <td style="color: var(--amber-400);">Baixa*</td>
+            </tr>
+            <tr>
+              <td>
+                <span class="source-name">
+                  <span class="source-icon" style="background: rgba(249,115,22,0.15); border: 1px solid rgba(249,115,22,0.25);">🔥</span>
+                  Gás Natural
+                </span>
+              </td>
+              <td><span class="badge-r badge-nao-renovavel">Não Renovável</span></td>
+              <td style="font-weight:700; color: var(--orange-400);">8,0%</td>
+              <td>Menor emissão entre os fósseis</td>
+              <td>Fonte finita, vazamentos de metano</td>
+              <td style="color: var(--orange-400);">Moderada</td>
+            </tr>
+            <tr>
+              <td>
+                <span class="source-name">
+                  <span class="source-icon" style="background: rgba(139,92,246,0.15); border: 1px solid rgba(139,92,246,0.25);">☢️</span>
+                  Nuclear
+                </span>
+              </td>
+              <td><span class="badge-r badge-nao-renovavel">Não Renovável</span></td>
+              <td style="font-weight:700; color: var(--purple-400);">1,1%</td>
+              <td>Altíssima densidade energética, sem CO₂</td>
+              <td>Risco de acidentes, lixo radioativo</td>
+              <td style="color: var(--green-400);">Nula**</td>
+            </tr>
+            <tr>
+              <td>
+                <span class="source-name">
+                  <span class="source-icon" style="background: rgba(148,163,184,0.15); border: 1px solid rgba(148,163,184,0.25);">🛢️</span>
+                  Petróleo
+                </span>
+              </td>
+              <td><span class="badge-r badge-nao-renovavel">Não Renovável</span></td>
+              <td style="font-weight:700; color: var(--text-muted);">&lt; 2%</td>
+              <td>Alta densidade, infraestrutura consolidada</td>
+              <td>Emissão massiva de GEE, finito</td>
+              <td style="color: var(--red-400);">Alta</td>
+            </tr>
+            <tr>
+              <td>
+                <span class="source-name">
+                  <span class="source-icon" style="background: rgba(100,116,139,0.15); border: 1px solid rgba(100,116,139,0.25);">⛏️</span>
+                  Carvão
+                </span>
+              </td>
+              <td><span class="badge-r badge-nao-renovavel">Não Renovável</span></td>
+              <td style="font-weight:700; color: var(--text-muted);">&lt; 1%</td>
+              <td>Abundante, barato, fornecimento constante</td>
+              <td>Uma das fontes mais poluentes</td>
+              <td style="color: var(--red-400);">Muito Alta</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="callout reveal" style="margin-top: 32px;">
+        <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.7;">
+          * Biomassa: considerada neutra em CO₂ quando o ciclo de plantio-queima é sustentável.<br>
+          ** Nuclear: sem emissão na operação, mas há emissões no ciclo de vida (mineração de urânio, construção).<br>
+          Dados de participação na matriz elétrica: BEN 2025 (EPE/MME), ano-base 2024.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MUNDO VS BRASIL ===== -->
+  <section class="section" id="mundo-vs-brasil">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Perspectiva Global</div>
+        <h2>Brasil vs Mundo</h2>
+        <p class="section-desc">O Brasil se destaca como uma das matrizes elétricas mais limpas do mundo. Enquanto globalmente as fontes renováveis + nuclear alcançaram 40% da geração elétrica em 2024, o Brasil atingiu 88,2% somente de renováveis.</p>
+      </div>
+
+      <div class="world-comparison">
+        <!-- BRASIL -->
+        <div class="world-card reveal">
+          <h3>🇧🇷 Brasil</h3>
+          <p class="world-subtitle">Matriz Elétrica 2024</p>
+          <div class="donut-chart">
+            <svg viewBox="0 0 200 200">
+              <circle cx="100" cy="100" r="80" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="24"/>
+              <!-- Renovável: 88.2% -->
+              <circle cx="100" cy="100" r="80" fill="none" stroke="url(#gradBR)" stroke-width="24"
+                stroke-dasharray="443.4 60.0" stroke-linecap="round" class="donut-segment"/>
+              <defs>
+                <linearGradient id="gradBR" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#10b981"/>
+                  <stop offset="100%" stop-color="#22d3ee"/>
+                </linearGradient>
+              </defs>
+            </svg>
+            <div class="donut-center">
+              <span class="donut-value" style="color: var(--emerald-400);">88,2%</span>
+              <span class="donut-label">Renováveis</span>
+            </div>
+          </div>
+          <div class="donut-legend">
+            <div class="legend-item">
+              <span class="legend-dot" style="background: linear-gradient(135deg, #10b981, #22d3ee);"></span>
+              Renováveis — 88,2%
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot" style="background: #64748b;"></span>
+              Não Renováveis — 11,8%
+            </div>
+          </div>
+        </div>
+
+        <!-- MUNDO -->
+        <div class="world-card reveal">
+          <h3>🌍 Mundo</h3>
+          <p class="world-subtitle">Geração Elétrica 2024</p>
+          <div class="donut-chart">
+            <svg viewBox="0 0 200 200">
+              <circle cx="100" cy="100" r="80" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="24"/>
+              <!-- Low-emissions: 40% -->
+              <circle cx="100" cy="100" r="80" fill="none" stroke="url(#gradWorld)" stroke-width="24"
+                stroke-dasharray="201.1 301.6" stroke-linecap="round" class="donut-segment"/>
+              <defs>
+                <linearGradient id="gradWorld" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#f59e0b"/>
+                  <stop offset="100%" stop-color="#fb923c"/>
+                </linearGradient>
+              </defs>
+            </svg>
+            <div class="donut-center">
+              <span class="donut-value" style="color: var(--amber-400);">40%</span>
+              <span class="donut-label">Baixa Emissão</span>
+            </div>
+          </div>
+          <div class="donut-legend">
+            <div class="legend-item">
+              <span class="legend-dot" style="background: linear-gradient(135deg, #f59e0b, #fb923c);"></span>
+              Renov. + Nuclear — 40%
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot" style="background: #64748b;"></span>
+              Fósseis — 60%
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="callout reveal" style="margin-top: 48px;">
+        <p>🌎 Segundo a <strong>IEA (Agência Internacional de Energia)</strong>, em 2024 a demanda global de energia cresceu 2,2%. Foram instalados <strong>~700 GW</strong> de nova capacidade renovável — recorde pelo 22º ano consecutivo. Ainda assim, os combustíveis fósseis atendiam a <strong>80% da demanda energética total</strong> global em 2023.</p>
+        <p style="margin-top: 8px; font-size: 0.78rem; color: var(--text-muted);">Fonte: IEA — Global Energy Review 2025</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FONTES E REFERÊNCIAS ===== -->
+  <section class="section" id="fontes">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">Transparência</div>
+        <h2>Fontes e Referências</h2>
+        <p class="section-desc">Todos os dados apresentados neste site foram extraídos de fontes oficiais e confiáveis. Abaixo, listamos as principais referências utilizadas com os respectivos links de acesso.</p>
+      </div>
+
+      <div class="sources-grid">
+        <div class="source-card reveal">
+          <div class="source-number">1</div>
+          <div class="source-info">
+            <h4>BEN 2025 — Relatório Síntese</h4>
+            <p>Balanço Energético Nacional 2025 (Ano-base 2024). Publicado pela EPE — Empresa de Pesquisa Energética, vinculada ao Ministério de Minas e Energia.</p>
+            <a href="https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/balanco-energetico-nacional-2025" target="_blank" rel="noopener">Acessar na EPE ↗</a>
+          </div>
+        </div>
+
+        <div class="source-card reveal">
+          <div class="source-number">2</div>
+          <div class="source-info">
+            <h4>BEN 2025 — Relatório Final</h4>
+            <p>Versão completa do BEN 2025 com contabilização detalhada de oferta, transformação, consumo e emissões de GEE. Publicado em 30/06/2025.</p>
+            <a href="https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/balanco-energetico-nacional-2025" target="_blank" rel="noopener">Acessar na EPE ↗</a>
+          </div>
+        </div>
+
+        <div class="source-card reveal">
+          <div class="source-number">3</div>
+          <div class="source-info">
+            <h4>Anuário Estatístico de Energia Elétrica 2025</h4>
+            <p>Publicação anual da EPE com dados detalhados sobre geração, transmissão, distribuição e consumo de energia elétrica no Brasil.</p>
+            <a href="https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/anuario-estatistico-de-energia-eletrica" target="_blank" rel="noopener">Acessar na EPE ↗</a>
+          </div>
+        </div>
+
+        <div class="source-card reveal">
+          <div class="source-number">4</div>
+          <div class="source-info">
+            <h4>EPE — Matriz Energética e Elétrica</h4>
+            <p>Página explicativa oficial da EPE sobre a diferença entre matriz energética e matriz elétrica brasileira.</p>
+            <a href="https://www.epe.gov.br/pt/abcdenergia/matriz-energetica-e-eletrica" target="_blank" rel="noopener">Acessar na EPE ↗</a>
+          </div>
+        </div>
+
+        <div class="source-card reveal">
+          <div class="source-number">5</div>
+          <div class="source-info">
+            <h4>IEA — Global Energy Review 2025</h4>
+            <p>Relatório anual da Agência Internacional de Energia (IEA) com análise global da oferta e demanda de energia.</p>
+            <a href="https://www.iea.org/reports/global-energy-review-2025" target="_blank" rel="noopener">Acessar na IEA ↗</a>
+          </div>
+        </div>
+
+        <div class="source-card reveal">
+          <div class="source-number">6</div>
+          <div class="source-info">
+            <h4>IEA — World Energy Outlook</h4>
+            <p>Publicação principal da IEA com projeções e cenários para o futuro energético global, incluindo metas de descarbonização.</p>
+            <a href="https://www.iea.org/reports/world-energy-outlook-2024" target="_blank" rel="noopener">Acessar na IEA ↗</a>
+          </div>
+        </div>
+
+        <div class="source-card reveal">
+          <div class="source-number">7</div>
+          <div class="source-info">
+            <h4>Ministério de Minas e Energia (MME)</h4>
+            <p>Portal oficial do MME com informações sobre política energética, dados do setor e programas governamentais.</p>
+            <a href="https://www.gov.br/mme" target="_blank" rel="noopener">Acessar no Gov.br ↗</a>
+          </div>
+        </div>
+
+        <div class="source-card reveal">
+          <div class="source-number">8</div>
+          <div class="source-info">
+            <h4>ANEEL — Agência Nacional de Energia Elétrica</h4>
+            <p>Agência reguladora responsável por regular e fiscalizar a geração, transmissão e distribuição de energia elétrica.</p>
+            <a href="https://www.gov.br/aneel" target="_blank" rel="noopener">Acessar no Gov.br ↗</a>
+          </div>
+        </div>
+
+        <div class="source-card reveal">
+          <div class="source-number">9</div>
+          <div class="source-info">
+            <h4>IBM — Energias Renováveis e Não Renováveis</h4>
+            <p>Artigo técnico com análise detalhada das vantagens e desvantagens de cada tipo de fonte de energia.</p>
+            <a href="https://www.ibm.com/br-pt/think/topics/renewable-vs-nonrenewable-energy" target="_blank" rel="noopener">Acessar na IBM ↗</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        ⚡ Energia<span>Brasil</span>
+      </div>
+      <p class="footer-text">
+        Site informativo e educacional sobre a matriz energética e elétrica do Brasil. Todos os dados foram obtidos de fontes oficiais e públicas, devidamente creditadas.
+      </p>
+      <div class="footer-links">
+        <a href="#conceitos">Conceitos</a>
+        <a href="#matriz-eletrica">Matriz Elétrica</a>
+        <a href="#renovaveis">Renováveis</a>
+        <a href="#nao-renovaveis">Não Renováveis</a>
+        <a href="#comparativo">Comparativo</a>
+        <a href="#mundo-vs-brasil">Brasil vs Mundo</a>
+        <a href="#fontes">Fontes</a>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 EnergiaBrasil. Projeto educacional — dados públicos com crédito às fontes originais.</p>
+        <p style="margin-top: 4px;">Dados: EPE/MME (BEN 2025, Ano-base 2024) | IEA (Global Energy Review 2025)</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top -->
+  <button class="scroll-top" id="scrollTop" aria-label="Voltar ao topo">↑</button>
+
+  <!-- ===== JAVASCRIPT ===== -->
+  <script>
+    // --- Navbar scroll effect ---
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // --- Mobile menu toggle ---
+    const mobileToggle = document.getElementById('mobileToggle');
+    const navLinks = document.getElementById('navLinks');
+    mobileToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      mobileToggle.textContent = navLinks.classList.contains('open') ? '✕' : '☰';
+    });
+
+    // Close mobile menu on link click
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        mobileToggle.textContent = '☰';
+      });
+    });
+
+    // --- Scroll to top button ---
+    const scrollTopBtn = document.getElementById('scrollTop');
+    window.addEventListener('scroll', () => {
+      scrollTopBtn.classList.toggle('visible', window.scrollY > 600);
+    });
+    scrollTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // --- Reveal on scroll (Intersection Observer) ---
+    const revealElements = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    // --- Animated data bars ---
+    const dataBars = document.querySelectorAll('.data-bar-item');
+    const barsObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const percent = entry.target.getAttribute('data-percent');
+          const fill = entry.target.querySelector('.data-bar-fill');
+          setTimeout(() => {
+            fill.style.width = percent + '%';
+          }, 200);
+          barsObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.3 });
+
+    dataBars.forEach(bar => barsObserver.observe(bar));
+
+    // --- Smooth scroll for nav links ---
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const href = this.getAttribute('href');
+        if (href === '#') return;
+        e.preventDefault();
+        const target = document.querySelector(href);
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+
+    // --- Active nav link on scroll ---
+    const sections = document.querySelectorAll('.section, .hero');
+    const navLinksAll = document.querySelectorAll('.nav-links a');
+
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 100;
+        if (window.scrollY >= sectionTop) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      navLinksAll.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === '#' + current) {
+          link.classList.add('active');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
